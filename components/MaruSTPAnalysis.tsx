@@ -675,6 +675,22 @@ const MaruSTPAnalysis = () => {
         </div>
       </div>
 
+      {/* Tasks Link */}
+      <div className="bg-gradient-to-r from-cyan-500 to-blue-600 rounded-xl shadow-lg p-6 mb-6">
+        <div className="flex items-center justify-between">
+          <div className="text-white">
+            <h3 className="font-bold text-xl mb-1">📋 Track Implementation Progress</h3>
+            <p className="text-cyan-100 text-sm">View and manage all tasks in our integrated task management system</p>
+          </div>
+          <a
+            href="/tasks"
+            className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition shadow-lg"
+          >
+            Open Tasks →
+          </a>
+        </div>
+      </div>
+
       <div className="bg-white rounded-xl shadow-lg p-6">
         <h3 className="font-bold text-gray-800 mb-3">Next Steps: From Analysis to Action</h3>
         <div className="grid md:grid-cols-3 gap-4">
